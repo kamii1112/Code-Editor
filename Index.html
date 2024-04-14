@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="editor_menu">
+        <div class="logo">
+            <div class="image">
+                <img src="Images/logo.jpg" alt="">
+            </div>
+            <div class="name">
+                <h1>Online Code Editor</h1>
+            </div>
+        </div>
+        <div class="btnbox">
+            <button class="btn btn-dark">Dark Mode</button>
+            <button class="btn btn-light">Light Mode</button>
+            <button class="btn btn-run"><i class="fa fa-play"></i> Run</button>
+            <div class="live outbox">
+                <label for="live">Live </label>
+                <input type="checkbox" id="live">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="editor" contenteditable="">
+                Write your code....
+            </div>
+        </div>
+        <div class="bar" title="click and drags">
+
+        </div>
+        <div class="right">
+            <iframe src="" frameborder="0" class="iframe">
+
+            </iframe>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
